@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+  <!-- [if lt IE 9]>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/html5shiv/r29/html5.min.js"></script>
+  <![endif]-->
+  <meta name=viewport content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+  <title>Intel Photo Gallery</title>
+  <link rel="stylesheet" href="/Stylesheets/style.css" type="text/css">
+  <link rel="stylesheet" href="/Stylesheets/style.scss" type="text/css">
+  <link rel="stylesheet" href="/Stylesheets/style.css.map" type="text/css">
+  <script src="/Javascripts/main.js"></script>
+  <script src="/Javascripts/slider.js"></script>
+</head>
+  <body>
+    
+    <nav>
+      <h1>Intel 2013 Conference Moments</h1>
+    </nav>
+    <main>
+      <div class="contain_carousel js-slider">
+        <div class="slider" data-slider>
+          <div class="slides" id="carousel">
+              
+          </div>
+        </div>
+        <div id="navigate-left" class="navigator"> &lt;</div>
+        <div id="navigate-right" class="navigator"> &gt;</div>
+
+      </div>
+
+    </main>
+    <footer>
+      <div id="strip" class="strip">
+      </div>
+    </footer>
+
+    <script type="text/template" id="carousel-temp">
+        <img src="#{url}" id="#{id}">        
+        <div>
+          <h2>#{title}</h2>
+          <h4>Taken at the Intel Conference in #{location} on #{date}</h4>
+        </div>
+    </script>
+    <script type="text/template" id="strip-template">
+      <img src="#{thumb_url}" id="thumb#{id}" class="thumbnail">
+    </script>
+  </body>
+</html>
