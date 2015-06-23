@@ -1,6 +1,7 @@
 # IntelConference
 A Single Page Application built with Node.js, Sass, Vanilla JavaScript, HTML, and nothing else!
 
+
 ## Responsive Photo Gallery with Thumbnails loaded through AJAX
 * Some credit goes to Swipe.js and Vanilla JS template!
 * Essentially hand-made in JavaScript/SCSS
